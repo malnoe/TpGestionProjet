@@ -183,3 +183,39 @@ graph LR
 ```
 ### Matrice des risques
 Créer la matrice des risques de votre projet ainsi que les solutions que vous envisagez pour chacun d'eux ([documentation](https://mermaid.js.org/syntax/quadrantChart.html)).
+
+```mermaid
+%%{init: {"themeVariables": {"quadrant1Fill": "red", "quadrant2Fill": "orange", "quadrant3Fill": "green", "quadrant4Fill": "orange"} }}%%
+quadrantChart
+    title Matrice des risques
+    x-axis Faible impacte --> "Impact élevée"
+    y-axis "Faible probabilité" --> "Forte Probabilité"
+    "❌ Four": [0.9, 0.3]
+    "Manque un ingrédient": [0.8, 0.6]
+    "Oublie le chocolat fondue": [0.2, 0.8]
+    "Cookie brûlé": [0.3, 0.3]
+    "Ustensile à laver": [0.6, 0.7]
+```
+
+#### Accepter : préparer uniquement un plan de repli si la menace était avérée. 
+| Risque | Solution |
+| ------------- | ------------- |
+| Cookie brûlé | Prix -50%  |
+
+#### Éviter
+| Risque | Solution |
+| ------------- | ------------- |
+| Manque un ingrédient | Gestion des stocks chaque soir |
+
+
+#### Réduire
+| Risque | Solution |
+| ------------- | ------------- |
+|Oublie le chocolat fondu| Checklist des étapes |
+| Ustensile à laver | Ustensile en double |
+
+#### Transféré
+| Risque | Solution |
+| ------------- | ------------- |
+| ❌ Four | Assurance |![image](https://github.com/user-attachments/assets/e0c248fb-c026-4ca8-b1c8-7510c8d02e7f)
+
