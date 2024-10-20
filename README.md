@@ -60,11 +60,30 @@ Et voilà, maintenant que l'on a les bases, on va pouvoir attaquer les diagramme
 
 ## Diagrammes
 Nous allons modifier les diagrammes vu en cours pour les appliquer au projet d'année. Pour cela, on va utiliser Mermaid, un outil intégré à Github qui va permettre de créer ces diagrammes sous forme textuelle.
-Pour vous faciliter le travail, n'hésitez pas à utiliser l'éditeur en ligne : [https://mermaid.live/](https://mermaid.live/)
+Pour vous faciliter le travail, n'hésitez pas à utiliser l'éditeur en ligne : [https://mermaid.live/](https://mermaid.live/).
 
 ### Work Breakdown Structure
 Créer la Work Breakdown Structure de votre projet. ([documentation](https://mermaid.js.org/syntax/mindmap.html)).
 N'oubliez pas de préciser la priorité des besoins et une estimation de temps pour chaque tache.
+
+```mermaid
+%%{init: {'theme':'neutral'}}%%
+mindmap
+  root(un cookie pour tous)
+    Vegan : P2
+    Classique : P1
+        **Assemblage**
+            🧈 Ramollir le beurre *25min*
+            ☕ Faire fondre le chocolat au bain marie *15min*
+            🍫 Tailler le chocolat en pépite *10min*
+            🍪 Assemblage finale *30min*
+        ❄️Mettre au frais *4h*
+        Cuisson de 3 fournées
+            🌡️ Four à température *15min*
+            ✂️ Découper en tronçon *4min*
+            ♨️ Cuisson *3*10min*
+    Sans gluten : P2
+```
 
 ### Gant
 Prenez l'une des branches de la Work Breakdown Structure et créer un diagramme de Gant ([documentation](https://mermaid.js.org/syntax/gantt.html)).
