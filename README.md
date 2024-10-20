@@ -147,22 +147,28 @@ Choisir une des branches de la Work Breakdown Structure (ça peut être la même
 graph LR
     X(("`Start
     0 | 0`"))
+    style X stroke:red,stroke-width:4px
     A(("`🧈 
     25 | 25`"))
+    style A stroke:red,stroke-width:4px
     B(("`🍪 
     55 | 55`"))
+    style B stroke:red,stroke-width:4px
     C(("`☕ 
     15 | 25`"))
     D(("`🍫 
     10 | 25`"))
     E(("`❄️ 
     235 | 235`"))
+    style E stroke:red,stroke-width:4px
     F(("`🌡️ 
     250 | 250`"))
+    style F stroke:red,stroke-width:4px
     G(("`✂️ 
     239 | 250`"))
     H(("`♨️ 
     290 | 290`"))
+    style H stroke:red,stroke-width:4px
     subgraph Assemblage
     X -- 25 --> A
     X -- 15 --> C
