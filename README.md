@@ -70,7 +70,7 @@ N'oubliez pas de préciser la priorité des besoins et une estimation de temps p
 ```mermaid
 %%{init: {'theme':'neutral'}}%%
 mindmap
-  root(un cookie pour tous)
+  root)un cookie pour tous(
     Vegan : P2
     Classique : P1
         **Assemblage**
