@@ -143,5 +143,43 @@ N'oubliez pas de mettre à jour l'avancement durant votre projet 😉.
 ### Pert
 Choisir une des branches de la Work Breakdown Structure (ça peut être la même) et créer un diagramme de PERT ([documentation](https://mermaid.js.org/syntax/flowchart.html)).
 
+```mermaid
+graph LR
+    X(("`Start
+    0 | 0`"))
+    A(("`🧈 
+    25 | 25`"))
+    B(("`🍪 
+    55 | 55`"))
+    C(("`☕ 
+    15 | 25`"))
+    D(("`🍫 
+    10 | 25`"))
+    E(("`❄️ 
+    235 | 235`"))
+    F(("`🌡️ 
+    250 | 250`"))
+    G(("`✂️ 
+    239 | 250`"))
+    H(("`♨️ 
+    290 | 290`"))
+    subgraph Assemblage
+    X -- 25 --> A
+    X -- 15 --> C
+    X -- 10 --> D
+    A -- 30 --> B
+    C -- 30 --> B
+    D -- 30 --> B
+    end
+    subgraph Mettre au frais
+    B -- 180 --> E
+    end
+    subgraph Cuisson
+    E -- 15 --> F
+    E -- 4 --> G
+    F -- 10 --> H
+    G -- 30 --> H
+    end
+```
 ### Matrice des risques
 Créer la matrice des risques de votre projet ainsi que les solutions que vous envisagez pour chacun d'eux ([documentation](https://mermaid.js.org/syntax/quadrantChart.html)).
