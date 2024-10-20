@@ -78,7 +78,7 @@ mindmap
             ☕ Faire fondre le chocolat au bain marie *15min*
             🍫 Tailler le chocolat en pépite *10min*
             🍪 Assemblage finale *30min*
-        ❄️Mettre au frais *4h*
+        ❄️Mettre au frais *3h*
         Cuisson de 3 fournées
             🌡️ Four à température *15min*
             ✂️ Découper en tronçon *4min*
