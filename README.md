@@ -61,6 +61,7 @@ Et voilà, maintenant que l'on a les bases, on va pouvoir attaquer les diagramme
 ## Diagrammes
 Nous allons modifier les diagrammes vu en cours pour les appliquer au projet d'année. Pour cela, on va utiliser Mermaid, un outil intégré à Github qui va permettre de créer ces diagrammes sous forme textuelle.
 Pour vous faciliter le travail, n'hésitez pas à utiliser l'éditeur en ligne : [https://mermaid.live/](https://mermaid.live/).
+Pour ajouter des icônes : [https://emojiterra.com/fr/liste-emojis/](https://emojiterra.com/fr/liste-emojis/)
 
 ### Work Breakdown Structure
 Créer la Work Breakdown Structure de votre projet. ([documentation](https://mermaid.js.org/syntax/mindmap.html)).
