@@ -86,8 +86,59 @@ mindmap
     Sans gluten : P2
 ```
 
-### Gant
-Prenez l'une des branches de la Work Breakdown Structure et créer un diagramme de Gant ([documentation](https://mermaid.js.org/syntax/gantt.html)).
+### Gantt
+Prenez l'une des branches de la Work Breakdown Structure et créer un diagramme de Gantt ([documentation](https://mermaid.js.org/syntax/gantt.html)).
+
+```mermaid
+gantt
+    dateFormat HH:mm
+    axisFormat %H:%M
+    Initial milestone : milestone, m1, 17:49, 2m
+    title Cookie classique
+
+
+    section Assemblage
+    🧈Ramollir le beurre :done, 10m
+    ☕ Faire fondre le chocolat au bain marie :done, 15m
+    🍫 Tailler le chocolat en pépite :done, 10m
+    🍪 Assemblage finale :done, 30m
+
+
+    section mettre au frais
+    ❄️Mettre au frais :active, 3h
+
+
+    section Cuisson
+    🌡️ Four à température :15m
+    ✂️ Découper en tronçon :4m
+    ♨️ Cuisson :30m
+```
+
+```mermaid
+gantt
+    dateFormat HH:mm
+    axisFormat %H:%M
+    Initial milestone : milestone, m1, 17:49, 2m
+    title Cookie classique
+
+
+    section Assemblage
+    🧈Ramollir le beurre :done, beurre, after m1, 10m
+    ☕ Faire fondre le chocolat au bain marie :done, fondre, after m1, 15m
+    🍫 Tailler le chocolat en pépite :done, choco, after m1, 10m
+    🍪 Assemblage finale :done, assemblage, after beurre fondre choco, 30m
+
+
+    section mettre au frais
+    ❄️Mettre au frais :active, frais, after assemblage, 3h
+
+
+    section Cuisson
+    🌡️ Four à température :four, after frais, 15m
+    ✂️ Découper en tronçon :cut, after frais, 4m
+    ♨️ Cuisson :after four cut, 30m
+```
+N'oubliez pas de mettre à jour l'avancement durant votre projet 😉.
 
 ### Pert
 Choisir une des branches de la Work Breakdown Structure (ça peut être la même) et créer un diagramme de PERT ([documentation](https://mermaid.js.org/syntax/flowchart.html)).
