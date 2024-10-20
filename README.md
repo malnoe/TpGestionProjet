@@ -57,3 +57,20 @@ Dans un futur cours on verra comment travailler en limitant ce genre de problèm
 6. Remodifier la page et valider, cette fois pas d'erreur.😊
 
 Et voià, maintenant que l'on a les bases, on va pouvoir attaquer les diagrammes ! 😎
+
+## Diagrammes
+Nous allons modifier les diagrammes vu en cours pour les appliquer au projet d'année. Pour cela, on va utiliser Mermaid, un outil intégré à Github qui va permettre de créer ces diagrammes sous forme textuelle.
+Pour vous faciliter le travail, n'hésitez pas à utiliser l'éditeur en ligne : [https://mermaid.live/](https://mermaid.live/)
+
+### Work Breakdown Structure
+Créer la Work Breakdown Structure de votre projet. ([documentation](https://mermaid.js.org/syntax/mindmap.html)).
+N'oubliez pas de préciser la priorité des besoins et une estimation de temps pour chaque tache.
+
+### Gant
+Prenez l'une des branches de la Work Breakdown Structure et créer un diagramme de Gant ([documentation](https://mermaid.js.org/syntax/gantt.html)).
+
+### Pert
+Choisir une des branches de la Work Breakdown Structure (ça peut être la même) et créer un diagramme de PERT ([documentation](https://mermaid.js.org/syntax/flowchart.html)).
+
+### Matrice des risques
+Créer la matrice des risques de votre projet ainsi que les solutions que vous envisagez pour chacun d'eux ([documentation](https://mermaid.js.org/syntax/quadrantChart.html)).
