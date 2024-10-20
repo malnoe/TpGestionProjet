@@ -41,7 +41,7 @@ En effet, par défaut dans Github, quand on modifie un projet sans avoir les dro
 4. Ajoutez les membres du projet sur le repository
 5. Connecter vous sur les différents comptes des membres du projet pour valider l'invitation.
 6. Retenter de modifier le README.md, ça devrait fonctionner.
-7. Maintenant que tous le monde peut modifier ce fichier, que ce passe-t-il si 2 personnes font une modification en même temps ? 🤪
+7. Maintenant que tout le monde peut modifier ce fichier, que se passe-t-il si 2 personnes font une modification en même temps ? 🤪
 
 ### Modification en simultanée
 1. Ouvrir 2 onglets sur le projet
@@ -49,14 +49,14 @@ En effet, par défaut dans Github, quand on modifie un projet sans avoir les dro
 3. Sur le 1er onglet, modifier le fichier et enregistrer celle-ci.
 4. Sur le 2nd onglet, tenter de faire pareil et validez.
 ```
-Un message d'erreur apparait !
-C'est une sécutité pour éviter de perdre le travail de l'autre. 
-Dans un futur cours on verra comment travailler en limitant ce genre de problème mais pour l'instant on va faire au plus simple !
+Un message d'erreur apparaît !
+C'est une sécurité pour éviter de perdre le travail de l'autre. 
+Dans un futur cours, on verra comment travailler en limitant ce genre de problèmes, mais pour l'instant, on va faire au plus simple !
 ```
 5. Actualisez la page, la modification sur l'onglet 1 est apparu.
-6. Remodifier la page et valider, cette fois pas d'erreur.😊
+6. Modifiez à nouveau la page et validez, cette fois pas d'erreur.😊
 
-Et voià, maintenant que l'on a les bases, on va pouvoir attaquer les diagrammes ! 😎
+Et voilà, maintenant que l'on a les bases, on va pouvoir attaquer les diagrammes ! 😎
 
 ## Diagrammes
 Nous allons modifier les diagrammes vu en cours pour les appliquer au projet d'année. Pour cela, on va utiliser Mermaid, un outil intégré à Github qui va permettre de créer ces diagrammes sous forme textuelle.
