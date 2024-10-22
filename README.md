@@ -65,25 +65,21 @@ Pour ajouter des icônes : [https://emojiterra.com/fr/liste-emojis/](https://emo
 
 ### Work Breakdown Structure
 Créer la Work Breakdown Structure de votre projet. ([documentation](https://mermaid.js.org/syntax/mindmap.html)).
-N'oubliez pas de préciser la priorité des besoins et une estimation de temps pour chaque tache.
+N'oubliez pas de préciser une estimation de temps pour chaque tache.
 
 ```mermaid
-%%{init: {'theme':'neutral'}}%%
 mindmap
-  root)un cookie pour tous(
-    Vegan : P2
-    Classique : P1
-        **Assemblage**
-            🧈 Ramollir le beurre *25min*
-            ☕ Faire fondre le chocolat au bain marie *15min*
-            🍫 Tailler le chocolat en pépite *10min*
-            🍪 Assemblage finale *30min*
-        ❄️Mettre au frais *3h*
-        Cuisson de 3 fournées
-            🌡️ Four à température *15min*
-            ✂️ Découper en tronçon *4min*
-            ♨️ Cuisson *3*10min*
-    Sans gluten : P2
+  root)Fabrication de cookies(
+    Assemblage
+        🧈 Ramollir le beurre *25min*
+        ☕ Faire fondre le chocolat au bain marie *15min*
+        🍫 Tailler le chocolat en pépite *10min*
+        🍪 Assemblage finale *30min*
+    ❄️Mettre au frais *3h*
+    Cuisson
+        🌡️ Four à température *15min*
+        ✂️ Découper en tronçon *4min*
+        ♨️ Cuisson *3x10min*
 ```
 
 ### Gantt
