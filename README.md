@@ -72,7 +72,7 @@ mindmap
   root)Fabrication de cookies(
     Assemblage
         🧈 Ramollir le beurre *25min*
-        ☕ Faire fondre le chocolat au bain marie *15min*
+        ☕ Faire fondre le chocolat *15min*
         🍫 Tailler le chocolat en pépite *10min*
         🍪 Assemblage finale *30min*
     ❄️Mettre au frais *3h*
@@ -94,8 +94,8 @@ gantt
 
 
     section Assemblage
-    🧈Ramollir le beurre :done, 10m
-    ☕ Faire fondre le chocolat au bain marie :done, 15m
+    🧈Ramollir le beurre :done, 25m
+    ☕ Faire fondre le chocolat :done, 15m
     🍫 Tailler le chocolat en pépite :done, 10m
     🍪 Assemblage finale :done, 30m
 
@@ -119,8 +119,8 @@ gantt
 
 
     section Assemblage
-    🧈Ramollir le beurre :done, beurre, after m1, 10m
-    ☕ Faire fondre le chocolat au bain marie :done, fondre, after m1, 15m
+    🧈Ramollir le beurre :done, beurre, after m1, 25m
+    ☕ Faire fondre le chocolat :done, fondre, after m1, 15m
     🍫 Tailler le chocolat en pépite :done, choco, after m1, 10m
     🍪 Assemblage finale :done, assemblage, after beurre fondre choco, 30m
 
