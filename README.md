@@ -1,6 +1,7 @@
 # Tp - GestionProjet
 ## Préparation
 ### Dupliquer le "repository"
+Modification
 **Github:** C'est une application web que l'on va utiliser pour stocker et travailler en équipe sur notre projet. Il s'utilise normalement avec Git que nous verrons en détail dans un prochain cours.
 Dans ce TP, nous allons juste voir le strict minimum pour stocker nos schémas.
 **Repository: ** Le dépôt en français, va contenir les fichiers e notre projet.
